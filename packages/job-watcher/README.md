@@ -20,6 +20,19 @@ composer require appslanka/job-watcher
 You can publish and run the migrations with:
 
 ```bash
+# Make sure your have installed these commands before use this package
+# Laravel 11 and higher
+php artisan make:queue-batches-table
+php artisan make:notifications-table
+ 
+# Laravel 10
+php artisan queue:batches-table
+php artisan notifications:table
+```
+
+You can publish and run the migrations with:
+
+```bash
 php artisan vendor:publish --tag="job-watcher-migrations"
 php artisan migrate
 ```
