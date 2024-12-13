@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Appslanka\JobWatcher\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class JobWatcherCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'job-watcher';
 
     public $description = 'My command';
 
