@@ -43,32 +43,6 @@ You can publish the config file with:
 php artisan vendor:publish --tag="job-watcher-config"
 ```
 
-Optionally, you can publish the views using
-
-```bash
-php artisan vendor:publish --tag="job-watcher-views"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
-```
-
-## Usage
-
-```php
-$jobWatcher = new Appslanka\JobWatcher();
-echo $jobWatcher->echoPhrase('Hello, Appslanka!');
-```
-
-## Testing
-
-```bash
-composer test
-```
-
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
