@@ -7,6 +7,7 @@ use Filament\Tables\Table;
 use Filament\Resources\Resource;
 use Appslanka\JobWatcher\Models\Job;
 use Appslanka\JobWatcher\Resources\JobResource\Pages;
+use Appslanka\JobWatcher\Filament\Resources\JobResource\Pages\ManageJobs;
 
 class JobResource extends Resource
 {
@@ -56,7 +57,7 @@ class JobResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageJobs::route('/'),
+            'index' => ManageJobs::route('/'),
         ];
     }
 }

@@ -7,6 +7,7 @@ use Filament\Tables\Table;
 use Filament\Resources\Resource;
 use Appslanka\JobWatcher\Models\FailedJob;
 use Appslanka\JobWatcher\Resources\FailedJobResource\Pages;
+use Appslanka\JobWatcher\Filament\Resources\FailedJobResource\Pages\ManageFailedJobs;
 
 class FailedJobResource extends Resource
 {
@@ -45,7 +46,7 @@ class FailedJobResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ManageFailedJobs::route('/'),
+            'index' => ManageFailedJobs::route('/'),
         ];
     }
 }

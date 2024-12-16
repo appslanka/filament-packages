@@ -2,9 +2,9 @@
 
 namespace Appslanka\JobWatcher\Filament\Resources\FailedJobResource\Pages;
 
-use Appslanka\JobWatcher\Resources\FailedJobResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
+use Appslanka\JobWatcher\Filament\Resources\FailedJobResource;
 
 class ManageFailedJobs extends ManageRecords
 {
