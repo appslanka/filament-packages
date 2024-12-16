@@ -2,6 +2,7 @@
     "name": "appslanka/job-watcher",
     "type": "library",
     "description": "Simple package for job monitering in filamentphp ",
+    "license": "MIT",
     "keywords": [
         "appslanka",
         "laravel",
@@ -15,7 +16,6 @@
         "issues": "https://github.com/appslanka/job-watcher/issues",
         "source": "https://github.com/appslanka/job-watcher"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Appslanka",
