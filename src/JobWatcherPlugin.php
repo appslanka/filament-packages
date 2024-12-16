@@ -8,7 +8,7 @@ use Appslanka\JobWatcher\Filament\Resources\JobResource;
 use Appslanka\JobWatcher\Filament\Resources\JobBatchResource;
 use Appslanka\JobWatcher\Filament\Resources\FailedJobResource;
 
-class FilamentIssuesPlugin implements Plugin
+class JobWatcherPlugin implements Plugin
 {
 
     public function getId(): string
