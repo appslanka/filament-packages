@@ -18,6 +18,7 @@ class JobBatchResource extends Resource
     protected static ?string $model = JobBatch::class;
     protected static ?string $navigationGroup = 'Job watcher';
     protected static ?string $navigationIcon = 'heroicon-o-circle-stack';
+    protected static bool $shouldRegisterNavigation = false;
 
     public static function form(Form $form): Form
     {

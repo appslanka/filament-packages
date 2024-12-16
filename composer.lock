@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/job-watcher",
-                "reference": "23c643b8547a42edef3eb3d48041c77ee1b22b7f"
+                "reference": "6e60e60caa29f80c748c8ab3b5564b65ef9393cb"
             },
             "require": {
                 "filament/tables": "^3.0",
