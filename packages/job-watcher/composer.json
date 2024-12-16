@@ -4,6 +4,9 @@
     "keywords": [
         "appslanka",
         "laravel",
+        "filament",
+        "job monitoring",
+        "queue watcher",
         "job-watcher"
     ],
     "homepage": "https://github.com/appslanka/job-watcher",

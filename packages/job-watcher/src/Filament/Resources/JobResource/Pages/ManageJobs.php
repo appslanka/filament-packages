@@ -1,6 +1,6 @@
 <?php
 
-namespace Appslanka\JobWatcher\Resources\JobResource\Pages;
+namespace Appslanka\JobWatcher\Filament\Resources\JobResource\Pages;
 
 use Appslanka\JobWatcher\Resources\JobResource;
 use Filament\Actions;

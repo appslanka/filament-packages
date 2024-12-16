@@ -1,6 +1,6 @@
 <?php
 
-namespace Appslanka\JobWatcher\Resources;
+namespace Appslanka\JobWatcher\Filament\Resources;
 
 use Filament\Tables;
 use Filament\Tables\Table;

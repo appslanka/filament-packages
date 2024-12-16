@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6a8dc3e0a1e3a1d495c2dfd013fac144",
+    "content-hash": "c2964064728456466bd0eb6a61936b34",
     "packages": [
         {
             "name": "anourvalar/eloquent-serialize",
@@ -78,7 +78,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/job-watcher",
-                "reference": "90bc2cf712def8da27bfa1f072de16edffb2163a"
+                "reference": "23c643b8547a42edef3eb3d48041c77ee1b22b7f"
             },
             "require": {
                 "filament/tables": "^3.0",
@@ -150,14 +150,18 @@
             "homepage": "https://github.com/appslanka/job-watcher",
             "keywords": [
                 "appslanka",
+                "filament",
+                "job monitoring",
                 "job-watcher",
-                "laravel"
+                "laravel",
+                "queue watcher"
             ],
             "support": {
                 "issues": "https://github.com/appslanka/job-watcher/issues",
                 "source": "https://github.com/appslanka/job-watcher"
             },
             "transport-options": {
+                "symlink": true,
                 "relative": true
             }
         },
@@ -2704,16 +2708,16 @@
         },
         {
             "name": "league/csv",
-            "version": "9.19.0",
+            "version": "9.20.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/csv.git",
-                "reference": "f81df48a012a9e86d077e74eaff666fd15bfab88"
+                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/csv/zipball/f81df48a012a9e86d077e74eaff666fd15bfab88",
-                "reference": "f81df48a012a9e86d077e74eaff666fd15bfab88",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/553579df208641ada6ffb450b3a151e2fcfa4f31",
+                "reference": "553579df208641ada6ffb450b3a151e2fcfa4f31",
                 "shasum": ""
             },
             "require": {
@@ -2787,7 +2791,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2024-12-08T08:09:35+00:00"
+            "time": "2024-12-13T15:49:27+00:00"
         },
         {
             "name": "league/flysystem",

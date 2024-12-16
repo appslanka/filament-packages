@@ -4,9 +4,9 @@ namespace Appslanka\JobWatcher;
 
 use Filament\Panel;
 use Filament\Contracts\Plugin;
-use Appslanka\JobWatcher\Resources\JobResource;
-use Appslanka\JobWatcher\Resources\JobBatchResource;
-use Appslanka\JobWatcher\Resources\FailedJobResource;
+use Appslanka\JobWatcher\Filament\Resources\JobResource;
+use Appslanka\JobWatcher\Filament\Resources\JobBatchResource;
+use Appslanka\JobWatcher\Filament\Resources\FailedJobResource;
 
 class FilamentIssuesPlugin implements Plugin
 {
