@@ -42,7 +42,7 @@ class AdminPanelProvider extends PanelProvider
                 Widgets\FilamentInfoWidget::class,
             ])
             ->plugins([
-                //  new JobWatcherPlugin(),
+                 new JobWatcherPlugin(),
             ])
             ->middleware([
                 EncryptCookies::class,
