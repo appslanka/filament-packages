@@ -1,5 +1,6 @@
 {
     "name": "appslanka/job-watcher",
+    "type": "library",
     "description": "Simple package for job monitering in filamentphp ",
     "keywords": [
         "appslanka",
