@@ -2,9 +2,9 @@
 
 namespace Appslanka\JobWatcher\Filament\Resources\JobBatchResource\Pages;
 
-use Appslanka\JobWatcher\Resources\JobBatchResource;
 use Filament\Actions;
 use Filament\Resources\Pages\ManageRecords;
+use Appslanka\JobWatcher\Filament\Resources\JobBatchResource;
 
 class ManageJobBatches extends ManageRecords
 {
