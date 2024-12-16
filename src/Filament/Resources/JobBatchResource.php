@@ -1,11 +1,9 @@
 <?php
 
-namespace Appslanka\JobWatcher\Resources;
+namespace Appslanka\JobWatcher\Filament\Resources;
 
-use Filament\Forms;
 use Filament\Tables;
 use App\Models\JobBatch;
-use Filament\Forms\Form;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
 use Appslanka\JobWatcher\Resources\JobBatchResource\Pages;

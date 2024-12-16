@@ -1,6 +1,6 @@
 <?php
 
-namespace Appslanka\JobWatcher\Resources;
+namespace Appslanka\JobWatcher\Filament\Resources;
 
 use Filament\Tables;
 use Filament\Tables\Table;
@@ -51,6 +51,7 @@ class JobResource extends Resource
                 ]),
             ]);
     }
+
 
     public static function getPages(): array
     {
