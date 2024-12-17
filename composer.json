@@ -25,6 +25,12 @@
         "pestphp/pest": "^3.7",
         "pestphp/pest-plugin-laravel": "^3.0"
     },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "packages/*"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "App\\": "app/",
@@ -75,10 +81,4 @@
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "git://github.com/appslanka/filament-packages/packages/job-watcher"
-        }
-    ]
 }
