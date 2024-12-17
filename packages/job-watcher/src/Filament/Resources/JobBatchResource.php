@@ -6,7 +6,6 @@ use Filament\Tables;
 use App\Models\JobBatch;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
-use Appslanka\JobWatcher\Resources\JobBatchResource\Pages;
 use Appslanka\JobWatcher\Filament\Resources\JobBatchResource\Pages\ManageJobBatches;
 
 class JobBatchResource extends Resource
