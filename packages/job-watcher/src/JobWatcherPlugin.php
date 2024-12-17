@@ -10,6 +10,10 @@ use Appslanka\JobWatcher\Filament\Resources\FailedJobResource;
 
 class JobWatcherPlugin implements Plugin
 {
+    public static function make(): static
+    {
+        return app(static::class);
+    }
 
     public function getId(): string
     {
@@ -29,10 +33,5 @@ class JobWatcherPlugin implements Plugin
     public function boot(Panel $panel): void
     {
        //
-    }
-
-    public static function make(): static
-    {
-        return new static();
     }
 }
