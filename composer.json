@@ -78,10 +78,7 @@
     "repositories": [
         {
             "type": "path",
-            "url": "./packages/job-watcher",
-            "options": {
-                "symlink": true
-            }
+            "url": "git://github.com/appslanka/filament-packages/packages/job-watcher"
         }
     ]
 }
