@@ -14,6 +14,11 @@ class JobBatchResource extends Resource
     protected static ?string $navigationGroup = 'Job watcher';
     protected static ?string $navigationIcon = 'heroicon-o-circle-stack';
 
+    public static function getNavigationBadge(): ?string
+    {
+        return static::getModel()::count() > 0 ?  static::getModel()::count() : null;
+    }
+
     public static function table(Table $table): Table
     {
         return $table
