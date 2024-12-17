@@ -30,12 +30,12 @@ php artisan queue:batches-table
 php artisan notifications:table
 ```
 
-You can publish and run the migrations with:
+<!-- You can publish and run the migrations with:
 
 ```bash
 php artisan vendor:publish --tag="job-watcher-migrations"
 php artisan migrate
-```
+``` -->
 
 You can publish the config file with:
 

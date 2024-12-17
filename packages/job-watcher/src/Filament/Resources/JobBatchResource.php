@@ -3,9 +3,9 @@
 namespace Appslanka\JobWatcher\Filament\Resources;
 
 use Filament\Tables;
-use App\Models\JobBatch;
 use Filament\Tables\Table;
 use Filament\Resources\Resource;
+use Appslanka\JobWatcher\Models\JobBatch;
 use Appslanka\JobWatcher\Filament\Resources\JobBatchResource\Pages\ManageJobBatches;
 
 class JobBatchResource extends Resource
