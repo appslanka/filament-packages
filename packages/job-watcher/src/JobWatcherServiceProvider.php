@@ -34,8 +34,8 @@ class JobWatcherServiceProvider extends PackageServiceProvider
             ->hasInstallCommand(function (InstallCommand $command) {
                 $command
                     ->publishConfigFile()
-                    ->publishMigrations()
-                    ->askToRunMigrations()
+                    // ->publishMigrations()
+                    // ->askToRunMigrations()
                     ->askToStarRepoOnGitHub('appslanka/job-watcher');
             });
 
@@ -101,8 +101,8 @@ class JobWatcherServiceProvider extends PackageServiceProvider
     {
         return [
             // AlpineComponent::make('job-watcher', __DIR__ . '/../resources/dist/components/job-watcher.js'),
-            Css::make('job-watcher-styles', __DIR__ . '/../resources/dist/job-watcher.css'),
-            Js::make('job-watcher-scripts', __DIR__ . '/../resources/dist/job-watcher.js'),
+            // Css::make('job-watcher-styles', __DIR__ . '/../resources/dist/job-watcher.css'),
+            // Js::make('job-watcher-scripts', __DIR__ . '/../resources/dist/job-watcher.js'),
         ];
     }
 
